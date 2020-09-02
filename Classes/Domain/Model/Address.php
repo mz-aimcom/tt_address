@@ -23,31 +23,31 @@ class Address extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
      * Gender
      * @var string
      */
-    protected $gender;
+    protected $gender = '';
 
     /**
      * Name
      * @var string
      */
-    protected $name;
+    protected $name = '';
 
     /**
      * First Name
      * @var string
      */
-    protected $firstName;
+    protected $firstName = '';
 
     /**
      * Middle Name
      * @var string
      */
-    protected $middleName;
+    protected $middleName = '';
 
     /**
      * Last Name
      * @var string
      */
-    protected $lastName;
+    protected $lastName = '';
 
     /**
      * Birthday
@@ -59,133 +59,133 @@ class Address extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
      * Title
      * @var string
      */
-    protected $title;
+    protected $title = '';
 
     /**
      * Address
      * @var string
      */
-    protected $address;
+    protected $address = '';
 
     /**
      * Latitude
      * @var string
      */
-    protected $latitude;
+    protected $latitude = '';
 
     /**
      * Longitude
      * @var string
      */
-    protected $longitude;
+    protected $longitude = '';
 
     /**
      * Building
      * @var string
      */
-    protected $building;
+    protected $building = '';
 
     /**
      * Room
      * @var string
      */
-    protected $room;
+    protected $room = '';
 
     /**
      * Phone
      * @var string
      */
-    protected $phone;
+    protected $phone = '';
 
     /**
      * Fax
      * @var string
      */
-    protected $fax;
+    protected $fax = '';
 
     /**
      * Mobile
      * @var string
      */
-    protected $mobile;
+    protected $mobile = '';
 
     /**
      * www
      * @var string
      */
-    protected $www;
+    protected $www = '';
 
     /**
      * slug
      * @var string
      */
-    protected $slug;
+    protected $slug = '';
 
     /**
      * Skype
      * @var string
      */
-    protected $skype;
+    protected $skype = '';
 
     /**
      * twitter
      * @var string
      */
-    protected $twitter;
+    protected $twitter = '';
 
     /**
      * Facebook
      * @var string
      */
-    protected $facebook;
+    protected $facebook = '';
 
     /**
      * LinkedIn
      * @var string
      */
-    protected $linkedin;
+    protected $linkedin = '';
 
     /**
      * Email
      * @var string
      */
-    protected $email;
+    protected $email = '';
 
     /**
      * Organization
      * @var string
      */
-    protected $company;
+    protected $company = '';
 
     /**
      * Position
      * @var string
      */
-    protected $position;
+    protected $position = '';
 
     /**
      * City
      * @var string
      */
-    protected $city;
+    protected $city = '';
 
     /**
      * Zipcode
      * @var string
      */
-    protected $zip;
+    protected $zip = '';
 
     /**
      * Region/State
      * @var string
      */
-    protected $region;
+    protected $region = '';
 
     /**
      * Country
      * @var string
      */
-    protected $country;
+    protected $country = '';
 
     /**
      * Image
@@ -197,7 +197,7 @@ class Address extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
      * Description
      * @var string
      */
-    protected $description;
+    protected $description = '';
 
     /**
      * Categories
